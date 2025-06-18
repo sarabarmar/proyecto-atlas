@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(../asset/image/banner-bk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: start;
+    width: 100vw;
+    height: 93vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 9% 2%;
+    align-items: center;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.enlacenav a {
+    color: #c2c2c2;
+    text-decoration: none;
+    text-align: center;
+}
+.seccion1{
+    padding: 2% 9%;
+}
+
+h1{
+    color: white;
+    font-size: 105px;
+}
+.inicio{
+    color: #c2c2c2;
+    margin: 4% 0%;
+    line-height: 2.2rem;
+    font-size: 20px;
+}
+.iniciar{
+    border: none;
+    border-radius: 20px;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #00FFAD;
+    color: #192440;
+}
