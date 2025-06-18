@@ -25,7 +25,7 @@ nav {
 }
 
 .enlacenav a {
-    color: #c2c2c2;
+    color: #ECEEEF;
     text-decoration: none;
     text-align: center;
 }
@@ -40,7 +40,7 @@ h1 {
 }
 
 .inicio {
-    color: #c2c2c2;
+    color: #ECEEEF;
     margin: 4% 0%;
     line-height: 2.2rem;
     font-size: 20px;
@@ -126,15 +126,121 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
-.seccion4{
+
+.seccion4 {
     margin: 9%;
 }
-.check{
+
+.check {
     font-size: 70px;
     text-align: center;
     margin-bottom: 5%;
 }
-.cartashorizontal{
+
+.cartashorizontal {
     display: flex;
+    justify-content: center;
+}
+
+.carta1 {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3% 10%;
+}
+
+.titulocart {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 1%;
+
+}
+
+.precio {
+    font-size: 15px;
+    margin: 10%;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+
+span {
+    font-size: 90px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    margin-bottom: 20%;
+}
+
+li {
+    line-height: 3rem;
+}
+
+.carta2 {
+    background-color: #192440;
+    color: white;
+}
+
+.get1 {
+    border-color: #192440;
+    border-radius: 20px;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #ffffff;
+    color: #192440;
+}
+
+.get2 {
+    border: none;
+    border-radius: 20px;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #00FFAD;
+    color: #192440;
+}
+
+.clientes {
+    display: flex;
+    background-color: #ECEEEF;
     justify-content: space-evenly;
+    padding: 4% 0%;
+}
+
+.seccion5 {
+    background-image: url(../asset/image/contact-bk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: start;
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 9%;
+    align-items: center;
+}
+.textocontact{
+    color: white;
+}
+.conactoh{
+    font-size: 70px;
+}
+.contactop{
+    color: #ECEEEF;
+    font-size: 20px;
+    padding: 5% 0%;
+}
+.dobleinput{
+    display: flex;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #192440;
+    padding: 2% 9%;
+    color: white;
 }
