@@ -89,9 +89,14 @@ h1 {
 }
 
 .seccion3 {
-    margin: 9% 9%;
+    margin: 9% 0%;
+    background: linear-gradient(-10deg, #00FFAD 60%, white 60%);
+  height: 100vh;
+  padding: 50px;
 }
-
+.contenidosec3{
+    margin: 0% 9%;
+}
 .seccion3-1 {
     display: flex;
     justify-content: space-between;
@@ -234,8 +239,30 @@ li {
     font-size: 20px;
     padding: 5% 0%;
 }
+.formulario{
+    display: column;
+    justify-content: center;
+}
+.forms{
+    color: #00FFAD;
+    font-weight: lighter;
+    margin-bottom: 3%;
+}
 .dobleinput{
     display: flex;
+    gap: 20px;
+    margin-bottom: 3%;
+}
+.pequeño{
+    
+}
+.input-transparente {
+  background-color: transparent;
+  border: 1px solid #00FFAD; 
+  color: #00FFAD;
+  padding: 10px;
+  outline: none; 
+  border-radius: 3px;
 }
 footer{
     display: flex;
@@ -244,3 +271,13 @@ footer{
     padding: 2% 9%;
     color: white;
 }
+.copyrigth{
+    font-weight: lighter;
+    font-size: 15px;
+}
+.iconos{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
